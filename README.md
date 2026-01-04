@@ -1,52 +1,5 @@
-# OpenAI.fm
-
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-![NextJS](https://img.shields.io/badge/Built_with-NextJS-blue)
-![OpenAI API](https://img.shields.io/badge/Powered_by-OpenAI_API-orange)
-
-[OpenAI.fm](https://openai.fm) is an interactive demo to showcase the new OpenAI text-to-speech models.
-It is built with NextJS and the [Speech API](https://platform.openai.com/docs/api-reference/audio/createSpeech).
-
-For more information about text-to-speech using the OpenAI API, check out our [documentation](https://platform.openai.com/docs/guides/text-to-speech).
-
-![screenshot](./public/screenshot.jpg)
-
-## How to run
-
-1. **Set up the OpenAI API:**
-
-   - If you're new to the OpenAI API, [sign up for an account](https://platform.openai.com/signup).
-   - Follow the [Quickstart](https://platform.openai.com/docs/quickstart) to retrieve your API key.
-
-2. **Clone the Repository:**
-
-   ```bash
-   git clone https://github.com/openai/openai-fm.git
-   ```
-
-3. **Set the OpenAI API key:**
-
-   2 options:
-
-   - Set the `OPENAI_API_KEY` environment variable [globally in your system](https://platform.openai.com/docs/libraries#create-and-export-an-api-key)
-   - Set the `OPENAI_API_KEY` environment variable in the project: Create a `.env` file at the root of the project and add the following line (see `.env.example` for reference):
-
-   ```bash
-   OPENAI_API_KEY=<your_api_key>
-   ```
-
-4. **Install dependencies:**
-
-   Run in the project root:
-
-   ```bash
-   npm install
-   ```
-
-5. **(Optional) Connect to a hosted database:**
-
-   If you want to use the sharing feature, you need to connect to a hosted postgres database.
-   You should set the environment variables in a `.env` file at the root of the project to connect to your database as shown in `.env.example`.
+  हजारों गम हैं दिल में पर चेहरे पर मुस्कान रखते हैं,
+हम वो मुसाफिर हैं जो अपनी तबाही का भी मान रखते हैं।" You should set the environment variables in a `.env` file at the root of the project to connect to your database as shown in `.env.example`.
 
    ```bash
    POSTGRES_URL="postgresql://username:password@host:port/database_name"
